@@ -130,8 +130,8 @@ c:\Users\HP\Desktop\api/
    ```env
    APP_ENV=development
    DATABASE_URL=postgresql://postgres:[PASSWORD]@db.dcnpylkjncogzsfuvoyq.supabase.co:5432/postgres
-   SUPABASE_URL=https://dcnpylkjncogzsfuvoyq.supabase.co
-   SUPABASE_PUBLISHABLE_KEY=sb_publishable_NhLPHJIuofNsp7Q3vPf22g_4i6q-2RN
+   SUPABASE_URL=""
+   SUPABASE_PUBLISHABLE_KEY=""
    ALLOW_SQLITE_FALLBACK=true
    ```
    *(Note: If the PostgreSQL password is not yet configured, the system automatically falls back to `./stockpilot.db` so you can test immediately.)*
@@ -215,8 +215,8 @@ python -m pytest -v
 1. Set Environment Variables on host:
    - `APP_ENV=production`
    - `DATABASE_URL=postgresql://postgres:[PASSWORD]@db.dcnpylkjncogzsfuvoyq.supabase.co:5432/postgres`
-   - `SUPABASE_URL=https://dcnpylkjncogzsfuvoyq.supabase.co`
-   - `SUPABASE_PUBLISHABLE_KEY=sb_publishable_NhLPHJIuofNsp7Q3vPf22g_4i6q-2RN`
+   - `SUPABASE_URL`
+   - `SUPABASE_PUBLISHABLE_KEY=""`
    - `FRONTEND_ORIGINS=https://your-stockpilot-app.vercel.app`
 2. Start Command:
    ```bash
